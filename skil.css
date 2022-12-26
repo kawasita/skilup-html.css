@@ -1,0 +1,353 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    height: 70px;
+    background-color: #EC715F;
+}
+
+#mv {
+    width: 100%;
+    height: 650px;
+    text-align: center;
+    color: #FAFAFA;
+    background-image: url(img/mv.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#portfolio {
+    background-color: #ECEFF1;
+}
+
+#feature {
+    background-size: cover;
+    background-position: center;
+}
+
+#profile {
+    background-color: #ECEFF1;
+}
+
+.copyright {
+    font-size: 16px;
+    color: #FAFAFA;
+    text-align: center;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+footer {
+    width: 100%;
+    height: 60px;
+    background-color: #EC715F;
+    line-height: 60px;
+}
+
+.header-group {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0;
+}
+.container {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo {
+    height: 70px;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.nav-list {
+    width: 120px;
+    line-height: 70px;
+    color: #FAFAFA;
+    padding: 0 30px;
+    list-style: none;
+    font-size: 16px;
+}
+
+.container {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.mv-title {
+    padding-top: 200px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 64px;
+}
+
+.mv-text {
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+.heading {
+    padding-top: 90px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 32px;
+}
+
+.heading-text {
+    padding-top: 30px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.production-group {
+    display: flex;
+    flex-flow: row wrap;
+    width: 920px;
+    padding: 30px 0 90px 0;
+    margin: 0 auto;
+}
+
+.strength-group {
+    display: flex;
+    width: 980px;
+    padding: 30px 0 90px 0;
+    margin: 0 auto;
+}
+
+.profile-group {
+    display: flex;
+    padding: 30px 0 90px 0;
+}
+
+.contact-group {
+    display: flex;
+    width: 800px;
+    padding: 30px 0 90px 0;
+    margin: 0 auto;
+}
+
+.nav {
+    display: flex;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+.nav-list a {
+    color: #FAFAFA;
+}
+
+.production:nth-child(-n+3) {
+    margin-top: 0;
+}
+.bg-1 {
+    background-image: url(img/sketch.jpg);
+}
+.production {
+    width: 300px;
+    height: 250px;
+    margin: 10px 10px 0 0;
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-2 {
+    background-image: url(img/websuku.png);
+}
+
+.bg-3 {
+    background-image: url(img/write.jpg);
+}
+
+.bg-4 {
+    background-image: url(img/webcamp.png);
+}
+
+.bg-5 {
+    background-image: url(img/talk.jpg);
+}
+
+.bg-6 {
+    background-image: url(img/webcamp-mother.png);
+}
+
+.production:nth-child(3n) {
+    margin-right: 0;
+}
+
+.heading::after {
+    content: "";
+    display: block;
+    width: 70px;
+    height: 3px;
+    margin: 8px auto 0 auto;
+    background-color: #EC715F;
+}
+
+.fa-code:before {
+    content: "\f121";
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.strength {
+    width: 320px;
+    margin-right: 10px;
+    text-align: center;
+    font-size: 60px;
+}
+
+.strength-text {
+    text-align: left;
+    font-size: 16px;
+}
+
+.fa-desktop:before {
+    content: "\f108";
+}
+
+.strength-title {
+    padding: 10px 0;
+    font-size: 20px;
+}
+
+.fa-gears:before, .fa-cogs:before {
+    content: "\f085";
+}
+
+.heading::after {
+    content: "";
+    display: block;
+    width: 70px;
+    height: 3px;
+    margin: 8px auto 0 auto;
+    background-color: #EC715F;
+}
+
+.left-content {
+    width: 50%;
+}
+
+.my-face {
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+    border-radius: 50%;
+    background-image: url(img/my-icon.jpg);
+}
+
+.description-title:first-child {
+    margin-top: 0;
+}
+.description-title {
+    margin: 20px 0 5px 0;
+    font-size: 20px;
+}
+
+.description-text {
+    font-size: 16px;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.heading::after {
+    content: "";
+    display: block;
+    width: 70px;
+    height: 3px;
+    margin: 8px auto 0 auto;
+    background-color: #EC715F;
+}
+
+.contact-group {
+    display: flex;
+    width: 800px;
+    padding: 30px 0 90px 0;
+    margin: 0 auto;
+}
+
+.left-content {
+    width: 50%;
+}
+
+.left-contact-content {
+    width: 130px;
+    margin: 0 auto;
+}
+
+.right-contact-content {
+    width: 170px;
+    margin: 0 auto;
+}
+
+.right-content {
+    width: 50%;
+}
+
+.right-contact-content {
+    width: 170px;
+    margin: 0 auto;
+}
+
+.description-title:first-child {
+    margin-top: 0;
+}
+
+.right-contact-content .fa {
+    font-size: 50px;
+    margin-right: 20px;
+}
+
+.fa-facebook-f:before, .fa-facebook:before {
+    content: "\f09a";
+}
+
+.fa-twitter:before {
+    content: "\f099";
+}
+
+.fa-instagram:before {
+    content: "\f16d";
+}
+
+.right-contact-content .fa:last-child {
+    margin-right: 0;
+}
